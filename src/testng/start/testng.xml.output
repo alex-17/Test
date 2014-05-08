@@ -1,0 +1,26 @@
+@BeforeSuite
+
+@BeforeTest
+
+@BeforeClass
+@BeforeGroups
+@BeforeMethod
+@Test - runTest1
+@AfterMethod
+@AfterGroups
+@BeforeMethod
+@Test - runTest2
+@AfterMethod
+@AfterClass
+
+
+@Test - runOtherTest1
+@Test - runOtherTest2
+
+@AfterTest
+
+@BeforeTest
+@Test - runOtherTest1
+@Test - runOtherTest2
+@AfterTest
+@AfterSuite

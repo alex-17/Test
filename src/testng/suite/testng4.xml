@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="TestAll">
+ 
+  <test name="database">
+	<groups>
+		<run>
+			<exclude name="brokenTests" />
+			<include name="db" />
+		</run>
+	</groups>
+ 
+	<classes>
+		<class name="suite.TestDatabase" />
+	</classes>
+  </test>
+ 
+</suite>

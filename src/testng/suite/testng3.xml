@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="TestAll">
+ 
+  <test name="order">
+	<classes>
+		<class name="suite.TestConfig" />
+		<class name="suite.TestOrder">
+			<methods>
+			 <include name="testMakeOrder" />
+				<include name="testUpdateOrder" /> 
+				
+					<!-- <exclude name="testMakeOrder" /> -->
+				 
+			</methods>
+		</class>
+	</classes>
+  </test>
+ 
+</suite>

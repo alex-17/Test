@@ -1,0 +1,9 @@
+/build
+/src/localtest
+/.settings
+.classpath
+.project
+.checkstyle
+/bin
+.fatjar
+.idea
