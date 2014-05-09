@@ -14,8 +14,7 @@ public class ColoredPoint extends Point { // 不再违背对称性
         boolean result = false;
         if (other instanceof ColoredPoint) {
             ColoredPoint that = (ColoredPoint) other;
-            result = (that.canEqual(this) && this.color.equals(that.color) && super
-                    .equals(that));
+            result = (that.canEqual(this) && this.color.equals(that.color) && super.equals(that));
         }
         return result;
     }
