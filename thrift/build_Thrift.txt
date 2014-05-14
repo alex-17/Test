@@ -1,0 +1,8 @@
+安装部署(http://www.ibm.com/developerworks/cn/java/j-lo-apachethrift/)
+Apache Thrift 的官方网站为：http://thrift.apache.org/tutorial/，具体安装步骤如下：
+下载 thrift 源文件（http://svn.apache.org/repos/asf/thrift/tags/thrift-0.6.1/）
+将 thrift 源文件导入 eclipse，进入 /lib/java 目录，使用 ant 编译 build.xml 获得 libthrift-0.6.1-snapshot.jar
+将 libthrift-0.6.1-snapshot.jar、slf4j-api-1.5.8.jar、slf4j-log4j12-1.5.8.jar 和 log4j-1.2.14.jar 导入 eclipse 开发环境
+下载 thrift 编译工具，该工具可将 thrift 脚本文件编译成 java 文件，下载地址：http://apache.etoak.com//thrift/0.6.0/thrift-0.6.1.exe
+创建 Hello.thrift 脚本文件，具体代码如上一章节所述，进入 thrift-0.6.1.exe 所在目录，执行命令"thrift-0.6.1.exe -gen java x:\Hello.thrift"，在当前运行盘符下，可看见 gen-java 目录，进入目录可看到生成的 Java 代码。更多 thrift 的命令内容，请参考 thrift 自带的 help 命令
+编写服务端和客户端代码，完成 thrift 的安装和部署
