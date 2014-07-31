@@ -9,6 +9,8 @@ package algorithms;
  *
  *************************************************************************/
 
+import Jama.Matrix;
+import Jama.QRDecomposition;
 import algorithms.standardlib.StdOut;
 
 /**
