@@ -1,7 +1,13 @@
 package utils;
 
+import org.apache.log4j.Logger;
+
 
 public class Visits {
+	/**
+	 * Logger for this class
+	 */
+	private static final Logger logger = Logger.getLogger(Visits.class);
 
     private long time = 0;
     
@@ -37,6 +43,10 @@ public class Visits {
     }
     
     public static void main(String[] args) {
+        if (logger.isInfoEnabled()) {
+            logger.info("main(String[]) - hello"); //$NON-NLS-1$
+        }
+
         Visits v = new Visits();
         boolean t = false;
         for(int i = 0  ; i < 1000000 ; i++){

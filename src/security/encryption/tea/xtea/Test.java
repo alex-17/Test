@@ -5,10 +5,10 @@ import java.util.Arrays;
 import java.util.Date;
 
 import org.apache.commons.codec.binary.Base64;
-<<<<<<< HEAD
+//<<<<<<< HEAD
 import org.apache.commons.codec.digest.DigestUtils;
-=======
->>>>>>> branch 'master' of https://github.com/alex-17/Test.git
+//=======
+//>>>>>>> branch 'master' of https://github.com/alex-17/Test.git
 import org.apache.commons.lang3.ArrayUtils;
 
 import compress.all_gzip_zip.Compressor;
@@ -18,11 +18,11 @@ public class Test {
 
 	public static void main(String[] args) throws UnsupportedEncodingException {
 
-<<<<<<< HEAD
+//<<<<<<< HEAD
 	    System.out.println(DigestUtils.md5Hex("abc"));;
 	    
-=======
->>>>>>> branch 'master' of https://github.com/alex-17/Test.git
+//=======
+//>>>>>>> branch 'master' of https://github.com/alex-17/Test.git
 		String random = "7HtX6dT.xzzsquYnlwK";//存在的意义不大
 		System.out.println("random=" + random);
 		

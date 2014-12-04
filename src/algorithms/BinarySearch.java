@@ -75,7 +75,7 @@ public class BinarySearch {
     public static void main(String[] args) {
 
         // read the integers from a file
-        In in = new In(args[0]);
+        In in = new In("D:\\baidu\\百度云同步盘\\GrowthX\\Test\\algorithms\\tinyW.txt");
         int[] whitelist = in.readAllInts();
 
         // sort the array

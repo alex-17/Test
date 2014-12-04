@@ -12,7 +12,7 @@ public class Test {
 
 	public static void main(String[] args) throws UnsupportedEncodingException {
 	    
-	    System.out.println(security.random.SecurityRandomUtil.getRandomString(32));
+	    System.out.println(security.random.SecurityRandomUtil.getRandomString(15));
 	    
 	   // System.out.println(DigestUtils.md5Hex("files/apps/xxxx_20130918101554496.apk"));
 	    
